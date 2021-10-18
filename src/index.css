@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.login {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	background-color: black;
+}
+
+.login img {
+	width: 600px;
+	object-fit: contain;
+}
+
+.login a {
+	margin-top: -400px;
+	padding: 20px;
+	background-color: #1db954;
+	border-radius: 99px;
+	font-weight: 800;
+	color: white !important;
+	text-decoration: none;
+}
+
+.player__body {
+	display: flex;
+	height: 100vh;
+}
+
+.sidebar {
+	flex: 0.2;
+	background: #040404;
+}
+.sidebar h3 {
+	color: gray;
+}
+.sidebar hr {
+	border: 1px solid gray;
+	width: 90%;
+}
+
+.sidebar > img {
+	margin: 5px 10px;
+	height: 140px;
+}
+.sidebarOption {
+	display: flex;
+	margin-left: 10px;
+	align-items: baseline;
+}
+.sidebarOption p {
+	color: gray;
+	height: 40px;
+	margin-left: 5px;
+	font-size: x-large;
+	transition: 200ms color ease-in;
+}
+.sidebarOption p:hover {
+	color: white;
+}
+.body {
+	flex: 0.8;
+	background: linear-gradient(rgba(91, 87, 115), rgba(0, 0, 0, 1));
+}
+
+.footer {
+	background-color: #282828;
+	position: fixed;
+	bottom: 0;
+	color: white;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__left {
+	flex: 0.3;
+}
+.footer__center {
+	flex: 0.4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer__center .MuiSvgIcon-root {
+	margin: 15px;
+}
+
+.footer__right {
+	display: flex;
+	justify-content: space-between;
+	flex: 0.3;
+}
+.footer__green {
+	color: rgb(109, 250, 109);
+}
+
+.footer__icon:hover,
+.footer__green:hover {
+	transition: 200ms transform ease-in;
+	transform: scale(1.3) !important;
+}
+
+.header {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__left {
+	flex: 0.5;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	color: gray;
+	border-radius: 30px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 25px;
+}
+.header__left input {
+	width: 100%;
+	border: none;
+}
+.header__left input:hover {
+	outline-width: 0px;
+}
+.header__right {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin: 10px;
+}
+.header__right p {
+	margin-left: 10px;
+}
+.body__info {
+	display: flex;
+	padding: 10px;
+	align-items: center;
+}
+.body__infoText {
+	flex: 1;
+	margin-left: 20px;
+	color: white;
+}
+.body__icons .MuiSvgIcon-root {
+	margin: 20px;
+	font-size: xx-large;
+	color: white;
+}
+.body__info img {
+	width: 200px;
+	object-fit: contain;
+}
+.songRow {
+	margin-left: 20px;
+	padding: 20px;
+	display: 20px;
+	align-items: center;
+	color: white;
+}
